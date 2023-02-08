@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="Counter.css">
+    <script>
+    let counter = 0;
+    function count() {
+        counter++;
+        document.querySelector('h2').innerHTML = counter
+    }
+    function subtract() {
+    counter--;
+    document.querySelector('h2').innerHTML = counter
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+    <h1>People arrived</h1>
+    <h2>0</h2>
+    <div class="buttons">
+        <button id="subtract" onclick="subtract()">Subtraction</button>
+    <button id="btn" onclick="count()">Addition</button>
+    </div>
+</div>
+    
+</body>
+</html>

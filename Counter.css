@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+h1,h2,h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 5px 10px;  
+    margin-left: 0.5rem;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover {
+    color: rgb(109, 64, 79);
+    transition: 0.2s;
+    font-weight: bold;
+    background-color: rgb(251, 144, 132);
+}
+h1:hover {
+    text-decoration: underline;
+    color: brown;
+    transition: 0.4s;
+    cursor: pointer;
+}
+h2:hover {
+    text-decoration: underline;
+    color: brown;
+    transition: 0.4s;
+    cursor: pointer;
+}
